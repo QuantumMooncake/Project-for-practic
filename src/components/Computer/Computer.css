@@ -1,0 +1,62 @@
+.computer {
+    max-width: 50%;
+    margin: 20px auto;
+}
+
+.computer__button {
+    font-size: 30px;
+    width: 100%;
+    color: black;
+    background-color: dimgray;
+    padding-bottom: 7px;
+    border-radius: 5px;
+}
+
+.computer__button:hover {
+    cursor: pointer;
+}
+
+.computer__info {
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.info {
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.computer__name {
+    display: inline-block;
+    margin-left: 120px;
+}
+
+.button__action {
+    display: inline-block;
+    position: relative;
+    left: 130px;
+}
+
+.edit {
+    color: darkorange;
+}
+
+.delete {
+    color: darkred;
+}
+
+.edit:hover {
+    color: yellow;
+}
+
+.delete:hover {
+    color: red;
+}
+
+.edit,
+.delete {
+    font-size: 20px;
+    margin-right: 15px;
+    background-color: dimgray;
+    border: 0;
+}
