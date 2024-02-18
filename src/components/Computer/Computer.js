@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import './Computer.css'
+import '../StylesCSS/Computer.css'
 
 function Computer(props) {
     const [isInfo, setIsInfo] = useState('none')

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
-import '../AddEditComputer.css'
+import '../StylesCSS/AddEditComputer.css'
 
 
 const myHeaders = new Headers();
